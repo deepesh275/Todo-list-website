@@ -53,13 +53,7 @@ function Input() {
 
   function editListItem(id, name) {
     
-    const editList = list.map((data)=> {
-      if(data.id === id && data.name === name) {
-        setInputValue(name)
-        return {...data,name:inputValue}
-      }
-      return data
-    })
+
 
 
 
@@ -90,7 +84,7 @@ function Input() {
             </div>
            
         </div>
-        <List list={list} deleteListItem={deleteListItem} completeListItem={completeListItem} editListItem={editListItem} filterValue={filterValue}/>
+        <List list={list} deleteListItem={deleteListItem} completeListItem={completeListItem} filterValue={filterValue}/>
     </div>
     
   )

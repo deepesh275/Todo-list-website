@@ -1,7 +1,7 @@
 import React from 'react'
 import "./List.css"
 
-function List({list, deleteListItem,completeListItem,editListItem, filterValue}) {
+function List({list, deleteListItem,completeListItem, filterValue}) {
   return (
     <div className='main-div'>
         <ul className='list-ul'>
@@ -27,10 +27,6 @@ function List({list, deleteListItem,completeListItem,editListItem, filterValue})
               <i className="list-icon" class="fa-solid fa-check fa-2x"></i> </button>
           <button onClick={()=> deleteListItem(data.id)} className='list-button'>
               <i className="list-icon" class="fa-solid fa-trash fa-2x"></i>
-              
-          </button>
-          <button onClick={()=> editListItem(data.id, data.name)} className='list-button'>
-             Edit
               
           </button>
           </li>
