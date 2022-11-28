@@ -1,0 +1,71 @@
+.todo-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.input-text1{
+    height: 40px;
+    width: 359px;
+    position: relative;
+    border: none;
+    background-color: white;
+    padding-left: 10px;
+
+}
+
+.icon{
+    height: 40px;
+    width: 35px;
+    background-color: orangered;
+    border: none;
+    color: black;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.input-text2{
+    background-color: white;
+    height: 40px;
+    position: relative;
+    border: none;
+    background-color: white;
+    padding-left: 10px;
+
+
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+
+}
+
+.fa-solid{
+    background-color: orangered;
+
+
+}
+
+
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    background-color: white;
+
+
+}
+
+.card-List{
+    background-color: white;
+    width: 150px;
+    border: none;
+}
+
+.option{
+    background-color: white;
+    
+}
