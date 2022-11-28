@@ -4,6 +4,29 @@
     justify-content: space-evenly;
 }
 
+@media only screen and (max-width: 425px) {
+    .todo-list {
+        flex-direction: column;
+        width: 312px;
+        margin-left: 10px;
+    }
+    .two{
+        display: block !important;
+        background-color: transparent !important;
+    }
+    .card-List{
+        margin-top: 10px;
+        padding: 10px !important;
+    }
+    .list-button{
+        padding: 0 4px;
+    }
+    .list-ul{
+        width: 296px;
+     }
+  }
+
+
 .input-text1{
     height: 40px;
     width: 359px;
