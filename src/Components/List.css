@@ -8,14 +8,10 @@
 .list-text{
 
  display: flex;
-
+  
 }
 
 .list-ul{
-    display: flex;
-    flex-direction: column;
-    margin: 8px;
-    list-style: none;
 
 }
 
@@ -32,8 +28,8 @@
 
 p{
     background-color: white;
-    padding: 17px 75px;
-    width: 150px;
+    padding: 17px 10px;
+    width: 300px;
 }
 
 .underline{
