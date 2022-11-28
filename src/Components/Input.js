@@ -51,14 +51,6 @@ function Input() {
   
   }
 
-  function editListItem(id, name) {
-    
-
-
-
-
-  }
-
   function filterList(value) {
     setfilterValue(value)
   
